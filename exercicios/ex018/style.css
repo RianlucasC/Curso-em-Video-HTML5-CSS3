@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #F29F05;
+    color: black;
+}
+
+h1 {
+    color: #F28705;
+}
+
+h2 {
+    color: #F2CB05;
+}
+
+.topicos {
+    color: aqua;
+}
