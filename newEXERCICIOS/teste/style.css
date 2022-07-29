@@ -3,27 +3,7 @@
     padding: 0px;
 }
 
-header {
+nav { 
     background-color: black;
-    color: white;
-    height: 80px;
-    width: 100%;
-}
-
-nav {
-    background-color: black ;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-}
-
-nav > a {
-    color: white;
-    text-decoration: none;
-    padding: 5px 30px 5px 5px;
-}
-
-nav > a:hover {
-    background-color: rgba(0, 255, 255, 0.548) ;
-    border-radius: 2px;
 }
 
