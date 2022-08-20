@@ -8,6 +8,7 @@
         table {
             width: 350px;
             border-collapse: collapse;
+            position: relative;
         }
         
         td , th {
@@ -24,6 +25,11 @@
             background-color: rgb(124, 124, 124);
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(124, 124, 124);
+        }
         td.num {
             text-align: right;
         }
