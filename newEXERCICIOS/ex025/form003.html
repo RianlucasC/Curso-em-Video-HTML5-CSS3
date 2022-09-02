@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form > div {
+            margin: 10px;
+        }
+    </style>
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <div>
+            <label for="idNome">Nome</label>
+            <input type="text" name="Nome" id="idNome" required maxlength="30" autocomplete="off" placeholder="Nome Completo" >
+        </div>
+        <div>
+            <label for="idmes">período letivo</label>
+            <input type="month" name="mes" id="idmes" required value="2022-09">
+        </div>
+        <div>
+            <label for="idmedia">Média</label>
+            <input type="number" name="media" id="idmedia" required min="0" max="10" value="5" step="0.5">
+        </div>
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </div>
+    </form>
+    
+</body>
+</html>
