@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div {
+            margin: 10px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <div>
+            <label for="idNum1">Número 1:</label>
+            <input type="number" name="Num1" id="idNum1" required oninput="idSoma.innerHTML = Number(idNum1.value) + Number(idNum2.value)">
+        </div>
+
+        <div>
+            <label for="idNum2">Número 2:</label>
+            <input type="number" name="Num2" id="idNum2" required oninput="idSoma.innerHTML = Number(idNum1.value) + Number(idNum2.value)">
+        </div>
+
+        <div>
+            <label for="idSoma">Soma:</label>
+            <output id="idSoma" name="soma" >0</output>
+        </div>
+
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </div>
+    </form>
+    
+</body>
+</html>
